@@ -1,0 +1,32 @@
+# Environment Variables (Sensitive Data)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+VENV/
+.idea/
+.vscode/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Heroku/Python Build Artifacts
+*.log
+
+# Pip Environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# VSCode settings (if using)
+.vscode/
+
+# SQLite database files (if you use later)
+*.db
+*.sqlite3
