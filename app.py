@@ -4,6 +4,7 @@ from flask import Flask, request, jsonify, render_template
 from dotenv import load_dotenv
 import re
 
+# Gemini SDK
 load_dotenv()
 
 app = Flask(__name__)
